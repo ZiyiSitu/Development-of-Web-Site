@@ -1,0 +1,112 @@
+#E-waste_heading1 {
+	text-align: center;
+}
+
+#Batteries_heading1 {
+	text-align: center;
+}
+
+#BatteriesGame_heading1 {
+	text-align: center;
+}
+
+#Disposal_heading1 {
+	text-align: center;
+}
+
+#Participation_heading1 {
+	text-align: center;
+}
+
+.link_to_pages {
+	text-decoration: none;
+	color: blue;
+	font: bold;
+	font-size: 25px;
+	background-color: lightgray;
+	padding: 8px;
+	text-align: center;
+	display: inline-block;
+}
+
+.link_to_pages:hover {
+    color: red;
+}
+
+#BatteriesGame_dropdownbtn {
+	width: 265px;
+    background-color: lightyellow;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: solid 2px;
+	border-radius: 100px;
+    cursor: pointer;
+}
+
+#BatteriesGame_dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#BatteriesGame_dropdown_content {
+    position: absolute;
+    display: none;
+    background-color: lightyellow;
+    min-width: 160px;
+}
+
+#BatteriesGame_dropdown_content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#BatteriesGame_dropdown_content p:hover {
+	background-color: lightgreen;
+}
+
+#BatteriesGame_dropdown:hover #BatteriesGame_dropdown_content {
+    display: block;
+}
+
+#BatteriesGame_dropdown:hover #BatteriesGame_dropdownbtn {
+    background-color: yellow;
+}
+
+#BatteriesGame_dropdiv1, #BatteriesGame_dropdiv2 {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: orange;
+}
+
+.BatteriesGame_img {
+	width: 100px;
+	height: 100px;
+}
+
+#Batteries_img1 {
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#Disposal_img1 {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#Participation_img1 {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+}
